@@ -43,14 +43,9 @@ h1 {
 
 /********** Desktop **********/
 @media (min-width: 992px) {
-	.col-lg-4, col-lg-6 {
+	.col-lg-4 {
     float: left;
     position: relative;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-4 {
     width: 33.33%;
   }
 }
@@ -69,6 +64,7 @@ h1 {
   }
 }
 
+/************ mobile ************/
 @media (max-width: 767px) {
   .col-sm-12 {
     float: left;
